@@ -1,11 +1,11 @@
 <template>
     <div>
-       <p>Работа: {{art}}</p>
+       <p> Работа: {{ art }} </p>
     </div>
 </template>
 
 <script setup lang="ts">
-    const (art) = useRoute().params;
+    const { art } = useRoute().params;
 </script>
 
 <style scoped>
