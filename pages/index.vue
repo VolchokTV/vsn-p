@@ -10,6 +10,8 @@
         <p>Плитки - решетка работ</p>
     </div>
     </div>
+   
+
 </template>
 
 <script setup lang="ts">

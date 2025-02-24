@@ -5,7 +5,13 @@
 </template>
 
 <script setup lang="ts">
-    const { art } = useRoute().params;
+
+definePageMeta({
+  layout: 'art-layout'
+})
+
+    const { art } = useRoute().params
+   
 </script>
 
 <style scoped>
